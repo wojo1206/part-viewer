@@ -12,6 +12,7 @@
 		2E43518B213D863800B60FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E435189213D863800B60FD4 /* Main.storyboard */; };
 		2E43518D213D863A00B60FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E43518C213D863A00B60FD4 /* Assets.xcassets */; };
 		2E435190213D863A00B60FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E43518E213D863A00B60FD4 /* LaunchScreen.storyboard */; };
+		2E43519A213DC32A00B60FD4 /* partTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E435199213DC32A00B60FD4 /* partTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E43518C213D863A00B60FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E43518F213D863A00B60FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E435191213D863A00B60FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E435199213DC32A00B60FD4 /* partTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		2E435184213D863800B60FD4 /* part-viewer */ = {
 			isa = PBXGroup;
 			children = (
-				2E435185213D863800B60FD4 /* AppDelegate.swift */,
 				2E435187213D863800B60FD4 /* ViewController.swift */,
+				2E435185213D863800B60FD4 /* AppDelegate.swift */,
+				2E435199213DC32A00B60FD4 /* partTableViewCell.swift */,
 				2E435189213D863800B60FD4 /* Main.storyboard */,
 				2E43518C213D863A00B60FD4 /* Assets.xcassets */,
 				2E43518E213D863A00B60FD4 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					2E435181213D863800B60FD4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E435188213D863800B60FD4 /* ViewController.swift in Sources */,
+				2E43519A213DC32A00B60FD4 /* partTableViewCell.swift in Sources */,
 				2E435186213D863800B60FD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,8 +294,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "wojo1206.part-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +312,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "wojo1206.part-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
